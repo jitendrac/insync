@@ -1,0 +1,344 @@
+@font-face {
+	font-family: quicksand;
+	src: url('fonts/Blokletters-Viltstift.ttf');
+}
+@font-face {
+	font-family: balpen;
+	src: url('fonts/Note_this.ttf');
+}
+label{
+	font-weight:bold;
+}
+li{
+	list-style:none;
+}
+
+*{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+#header {
+	float: left;
+	height: 75px;
+	width: 1000px;
+}
+#navigation {
+	float: left;
+	height: 30px;
+	width: 1000px;
+}
+#navigation1 {
+	float: left;
+	height: 9px;
+	width: 1000px;
+	background-image: url(images/na1.jpg);
+	background-repeat: no-repeat;
+}
+#footer {
+	background-color: #083f46;
+	float: left;
+	height: 50px;
+	width: 1000px;
+}
+#left_content {
+	height: 653px;
+	width: 506px;
+	float: left;
+}
+#coupon_box {
+	background-image: url(images/images/bgc_02.jpg);
+	background-repeat: repeat-y;
+	float: left;
+	height: 580px;
+	width: 506px;
+}
+
+#middle_content {
+	background-image: url(images/images/pin_02.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 653px;
+	width: 47px;
+}
+
+
+#content {
+	float: left;
+	height: 653px;
+	width: 1010px;
+}
+#box {
+	float: right;
+	height: 285px;
+	width: 499px;
+	background-image: url(images/cupon.jpg);
+	background-repeat: no-repeat;
+}
+#box1 {
+	float: left;
+	height: 45px;
+	width: 506px;
+}
+#box2 {
+	float: left;
+	height: 10;
+	width: 532px;
+}
+
+#content1 {
+	float: left;
+	height: auto;
+	width: 1010px;
+}
+#content1_top {
+	float: left;
+	height: auto;
+	width: 1010px;
+}
+#content1_bg {
+	float: left;
+	height: auto;
+	width: 1010px;
+}
+#right_content {
+	float: left;
+	height: 653px;
+	width: 449px;
+}
+#left_Top {
+	float:left;
+	padding:10px;
+	text-align:center;
+	width:420px;
+	font-family:quicksand,Tahoma,verdana,serif;
+	font-size:0.9em;
+	height:auto;
+	margin-top:52px;
+	color:#FF6203;
+	margin-bottom:-2px;
+}
+
+
+
+#wraper {
+	height: auto;
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#left_1 {
+	float: left;
+	height: 50px;
+	width: 404px;
+}
+#top_hed{
+	float: left;
+	width: 447px;
+	height: 102px;
+}
+#top_bg{
+	width: 449px;
+	background-image: url(images/images/right_coupon_03.jpg);
+	background-repeat: repeat-y;
+	height: 524px;
+	float: left;
+}
+#coupon {
+	background-image: url(images/new_coupon.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 82px;
+	width: 215px;
+}
+
+#top_bg1{
+	width: 447px;
+	height: 523;
+	background-image: url(images/images/right_coupon_03.jpg);
+	background-repeat: repeat-y;
+	float: left;
+	}
+#top_bottom{
+	float: left;
+	width: 466px;
+	height: 17px;
+	background-image: url(images/images/righttab_14.jpg);
+	background-repeat: no-repeat;
+	
+}
+.searchFields{
+	border:1px solid #999999;
+	color:#BABABA;
+	font-family:Verdana;
+	font-size:15px;
+	height:25px;
+	letter-spacing:2px;
+	padding-left:10px;
+	padding-top:2px;
+	width:300px;
+}
+.offerInfo{
+	font-family:Comic Sans MS,Tahoma,verdana,serif;
+	font-size:0.7em;
+	font-weight:normal;
+	letter-spacing:1.5px;
+	line-height:20px;
+	padding:10px;
+	text-align:left;
+}
+.offerStat{
+	height:84px;
+	width:137px;
+	background-image: url(images/images/bg_base_01.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 3px;
+}
+#left_bottom {
+	background-image: url(images/images/left_bottom_02.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 28px;
+	width: 506px;
+}
+#right_bottom {
+	background-image: url(images/images/right_bottom.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 27px;
+	width: 447px;
+}
+.offerStat label{
+	font-weight:bold;
+}
+.offerStat li{
+	font-family:Verdana;
+	font-size:0.6em;
+	line-height:15px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-top:3px;
+	text-align:center;
+	width:100%;
+	font-weight:normal;
+}
+.alive{
+	color:#17F214;
+}
+.dead{
+	color:red;
+}
+.slider_border{
+	height:15px;
+	width:120px;
+	margin-left:5px;
+	border:1px solid #ccc;
+}
+.inner_slider{
+	background-color:#17F214;
+	margin-left:0;
+	border:1px solid #17F214;
+	height:13px;
+}
+#advert p{
+	font-family:quicksand,Tahoma,verdana,serif;
+	font-size:0.6em;
+	height:50%;
+	margin-left:70px;
+	margin-top:20px;
+	text-align:center;
+	width:250px;
+}
+#advert_address{
+	margin-bottom:15px;
+	margin-top:30px;
+	text-align:center;
+	
+}
+#advert_address p{
+	font-family:quicksand,Tahoma,verdana,serif;
+	font-size:0.6em;
+	height:50%;
+	margin-left:70px;
+	margin-top:10px;
+	text-align:center;
+	width:250px;
+}
+#advert_address label{
+	margin:0 auto;
+	font-family:Arial;
+}
+
+.form{
+	font-family: Verdana;
+	font-size:1em;
+	margin:1em;
+	padding:1em;
+}
+
+.form p.formtitle{
+	color: #026475;
+	font-size:1.3em;
+	font-weight: bold;
+}
+
+.form fieldset{
+	width:40em;
+	border:1px solid #FFE545;
+	background-image: url(../img/Contact.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.form fieldset legend{
+	color: #026475;
+}
+
+.formfield{
+	width:30em;
+	padding:5px;
+}
+
+.formfield label{
+	display:block;
+	float:left;
+	width:12em;
+	padding:1px;
+	color:#C2A34F;
+	text-align:right;
+}
+
+.formfield input, .formfield  select{
+	padding:0.15em;
+	width:14em;
+	border:1px solid #ddd;
+	background:#FEFBAF;
+
+	font-family: Verdana;
+	font-size:1em;
+
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.formfield input:hover, input:focus {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+}
+
+.required input {
+	border:1px solid #FBB829;
+}
+
+.form .submit input{
+	font-family: Verdana;
+	font-size:1em;
+	margin-top: 0.3em;
+}
+
+.formerror{
+	position:relative;
+	left:12.1em;
+	color:#FBB829;
+}
